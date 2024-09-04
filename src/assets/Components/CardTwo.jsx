@@ -14,9 +14,10 @@ const CardTwo = () => {
                 <button className="w-[149px] h-[62px]  rounded-[20px] font-Poppins bg-black text-white hover:bg-white hover:text-black">Gallery</button>
               </div>
               <div className="gap-5 flex">
-                <button className="plusButton whitespace-pre-wrap">        
+                <input className="hidden" type="file" multiple  id="inputImage" />
+                <label className="plusButton" htmlFor="inputImage">        
                   +&nbsp; ADD IMAGE         
-                </button>
+                </label>
                 <button className="Arrow">
                   <img className="w-[14px] h-[14px]" src="/Arrow.svg" alt="" />
                 </button>

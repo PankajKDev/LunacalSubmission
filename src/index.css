@@ -69,7 +69,7 @@ opacity: 0px;
 
 }
 .imageCard{
-  @apply w-[190px] h-[179px]
+  @apply w-[190px] h-[179px] rounded-[24px]
 }
 
 .articleCard{
